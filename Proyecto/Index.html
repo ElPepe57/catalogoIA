@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Me Now - Catálogo Mayorista de Suplementos Premium</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Hero Slider -->
+    <section class="hero-slider" id="heroSlider">
+        <!-- Slide 1 -->
+        <div class="hero-slide hero-slide-1 active">
+            <div class="hero-content">
+                <h1>La Ciencia del Bienestar a tu Alcance</h1>
+                <p>Suplementos de calidad premium para potenciar tu negocio y la salud de tus clientes. Las mejores marcas americanas al mejor precio mayorista.</p>
+                <div class="hero-cta">
+                    <a href="#productos" class="hero-btn hero-btn-primary">Ver Catálogo</a>
+                    <a href="https://wa.me/51912907338?text=Hola!%20Quisiera%20información%20sobre%20precios%20mayoristas." target="_blank" class="hero-btn hero-btn-secondary">Precios Mayoristas</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="hero-slide hero-slide-2">
+            <div class="hero-content">
+                <h1>Calidad Premium, Precios Mayoristas</h1>
+                <p>Marcas reconocidas como NOW Foods, Carlyle, Natrol y más. Ofrecemos los mejores precios para distribuidores y farmacias en todo el Perú.</p>
+                <div class="hero-cta">
+                    <a href="https://wa.me/51912907338?text=Hola!%20Quisiera%20una%20cotización%20para%20mi%20negocio." target="_blank" class="hero-btn hero-btn-primary">Solicitar Cotización</a>
+                    <a href="#marcas" class="hero-btn hero-btn-secondary">Ver Marcas</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="hero-slide hero-slide-3">
+            <div class="hero-content">
+                <h1>Impulsa tu Negocio con Nosotros</h1>
+                <p>Más de 100 productos disponibles con entrega rápida en Lima. Asesoría personalizada y soporte completo para hacer crecer tu negocio.</p>
+                <div class="hero-cta">
+                    <a href="https://wa.me/51912907338?text=Hola!%20Quisiera%20información%20sobre%20cómo%20empezar%20a%20vender." target="_blank" class="hero-btn hero-btn-primary">Empezar Ahora</a>
+                    <a href="#beneficios" class="hero-btn hero-btn-secondary">Nuestros Beneficios</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controles de navegación -->
+        <button class="hero-nav hero-nav-prev" onclick="previousSlide()">‹</button>
+        <button class="hero-nav hero-nav-next" onclick="nextSlide()">›</button>
+
+        <!-- Indicadores -->
+        <div class="hero-indicators">
+            <span class="hero-indicator active" onclick="currentSlide(1)"></span>
+            <span class="hero-indicator" onclick="currentSlide(2)"></span>
+            <span class="hero-indicator" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <div class="logo-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 12L22 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 12V22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 12L2 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M16.5 4.5L7.5 9.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                        
+                </div>
+                <div class="logo-text">
+                    <h1>BUY ME - NOW!</h1>
+                </div>
+            </div>
+            <a href="https://wa.me/51912907338?text=Hola!%20Quisiera%20hacer%20una%20consulta%20sobre%20los%20productos." target="_blank" class="btn btn-primary">Contactar por WhatsApp</a>
+        </header>
+
+        <!-- Nueva Sección de Sellos de Confianza -->
+        <section class="trust-seals">
+            <div class="seal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                <span>Calidad Garantizada</span>
+            </div>
+            <div class="seal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+                <span>Fórmulas Potentes</span>
+            </div>
+            <div class="seal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                <span>Marcas Reconocidas</span>
+            </div>
+        </section>
+
+        <div class="search-container">
+            <span class="search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/></svg></span>
+            <input type="text" id="search-input" class="search-input" placeholder="Buscar por nombre, marca o beneficio...">
+        </div>
+        
+        <main id="product-sections-container">
+            <div class="loading-message">Cargando productos...</div>
+        </main>
+    </div>
+    
+    <div id="product-modal" class="modal-overlay">
+        <div class="modal-container">
+            <button id="modal-close-btn" class="modal-close">&times;</button>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <div id="cart-fab" class="cart-fab">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16"><path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg>
+        <span id="cart-badge" class="cart-badge">0</span>
+    </div>
+
+    <aside id="cart-sidebar" class="cart-sidebar">
+        <div class="cart-header"><h3>Mi Pedido</h3><button id="cart-close-btn" class="cart-close-btn">&times;</button></div>
+        <div id="cart-incentive" class="cart-incentive" style="display: none;"></div>
+        <div id="cart-items" class="cart-items"></div>
+        <div class="cart-footer">
+            <div class="cart-total"><span>Total:</span><span id="cart-total-price">S/ 0.00</span></div>
+            <a href="#" id="checkout-btn" class="btn btn-primary btn-checkout">Finalizar Pedido por WhatsApp</a>
+        </div>
+    </aside>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 12L22 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 12V22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 12L2 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16.5 4.5L7.5 9.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                               
+                        </div>
+                        <div class="logo-text">
+                            <h3>BUY ME - NOW!</h3>
+                        </div>
+                    </div>
+                    <p>Distribuidor mayorista de suplementos de las mejores marcas americanas. Contáctanos para potenciar tu negocio.</p>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contacto Directo</h4>
+                    <p>WhatsApp: +51 912 907 338</p>
+                    <p>Email: ventas@buymenow.pe (ejemplo)</p>
+                    <p>Lugar de despacho: Lince, Lima</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BUY ME - NOW!. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
