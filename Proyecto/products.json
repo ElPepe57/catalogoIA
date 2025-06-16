@@ -1,0 +1,1409 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Melatonina",
+      "brand": "Natrol",
+      "category": "sueño",
+      "shortDescription": "Ayuda a conciliar el sueño más rápido, mejorando la duración y calidad del descanso.",
+      "tags": [
+        "sueño",
+        "melatonina",
+        "tabletas",
+        "gomitas",
+        "insomnio",
+        "Natrol",
+        "descanso"
+      ],
+      "variants": [
+        {
+          "variantId": 101,
+          "name": "5 mg - 200 tabletas",
+          "presentation": "Tabletas",
+          "dosage": "5 mg",
+          "quantity": "200",
+          "images": [
+            "./images/Natrol/natrol-melatonin-5mg-200-F.jpg",
+            "./images/Natrol/natrol-melatonin-5mg-200-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "130.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "95.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "90.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        },
+        {
+          "variantId": 102,
+          "name": "10 mg - 140 gomitas",
+          "presentation": "Gomitas",
+          "dosage": "10 mg",
+          "quantity": "140",
+          "images": [
+            "./images/Natrol/natrol-melatonin-10mg-140-F.jpg",
+            "./images/Natrol/natrol-melatonin-10mg-140-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "160.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "110.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "100.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        },
+        {
+          "variantId": 103,
+          "name": "5 mg - 250 tabletas",
+          "presentation": "Tabletas",
+          "dosage": "5 mg",
+          "quantity": "250",
+          "images": [
+            "./images/Natrol/Natrol-melatonina-5mg-250-F.jpg",
+            "./images/Natrol/Natrol-melatonina-5mg-250-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "150.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "115.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "105.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Vitamina K2 + D3",
+      "brand": "Carlyle",
+      "category": "huesos",
+      "shortDescription": "Combinación que mejora la absorción de calcio para huesos fuertes y apoya la salud del corazón.",
+      "tags": [
+        "huesos",
+        "cardiovascular",
+        "calcio",
+        "vitamina D3",
+        "vitamina K2",
+        "Carlyle"
+      ],
+      "variants": [
+        {
+          "variantId": 201,
+          "name": "300 softgels",
+          "presentation": "Softgels",
+          "dosage": "nan",
+          "quantity": "300",
+          "images": [
+            "./images/Carlyle/Carlyle-kd-450mcg-300-F.jpg",
+            "./images/Carlyle/Carlyle-kd-450mcg-300-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "135.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "105.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "95.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Resveratrol Complex",
+      "brand": "Carlyle",
+      "category": "cardiovascular",
+      "shortDescription": "Potente antioxidante que protege las células, apoya la salud cardiovascular y la función cerebral.",
+      "tags": [
+        "antioxidante",
+        "cardiovascular",
+        "cerebro",
+        "energía",
+        "vitalidad",
+        "Carlyle"
+      ],
+      "variants": [
+        {
+          "variantId": 301,
+          "name": "1800 mg - 180 cápsulas",
+          "presentation": "Cápsulas",
+          "dosage": "1800 mg",
+          "quantity": "180",
+          "images": [
+            "./images/Carlyle/Carlyle-Resveratrol-1800mg-180-F.jpg",
+            "./images/Carlyle/Carlyle-Resveratrol-1800mg-180-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "130.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "105.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "95.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Bisglicinato de Magnesio",
+      "brand": "Carlyle",
+      "category": "sueño",
+      "shortDescription": "Forma de magnesio de alta absorción para relajar músculos, reducir el estrés y mejorar el sueño.",
+      "tags": [
+        "magnesio",
+        "sueño",
+        "estrés",
+        "relajación",
+        "músculos",
+        "nervios",
+        "Carlyle"
+      ],
+      "variants": [
+        {
+          "variantId": 401,
+          "name": "665 mg - 250 cápsulas",
+          "presentation": "Cápsulas",
+          "dosage": "665 mg",
+          "quantity": "250",
+          "images": [
+            "./images/Carlyle/Carlyle-BiMagnesio-650mg-250-F.jpg",
+            "./images/Carlyle/Carlyle-BiMagnesio-650mg-250-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "135.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "105.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "95.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Aceite de Orégano",
+      "brand": "Carlyle",
+      "category": "defensas",
+      "shortDescription": "Antimicrobiano natural que fortalece el sistema inmunológico y apoya la salud respiratoria y digestiva.",
+      "tags": [
+        "defensas",
+        "antioxidante",
+        "sistema inmune",
+        "digestión",
+        "orégano",
+        "Carlyle"
+      ],
+      "variants": [
+        {
+          "variantId": 501,
+          "name": "4000 mg - 150 softgels",
+          "presentation": "Softgels",
+          "dosage": "4000 mg",
+          "quantity": "150",
+          "images": [
+            "./images/Carlyle/Carlyle-OOO-4000mg-150-F.jpg",
+            "./images/Carlyle/Carlyle-OOO-4000mg-150-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "100.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "80.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "70.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Shilajit",
+      "brand": "Carlyle",
+      "category": "energia",
+      "shortDescription": "Suplemento natural que apoya la energía, la vitalidad y la claridad mental.",
+      "tags": [
+        "energía",
+        "vitalidad",
+        "cerebro",
+        "antioxidante",
+        "ácido fúlvico",
+        "Carlyle"
+      ],
+      "variants": [
+        {
+          "variantId": 601,
+          "name": "2000 mg - 90 cápsulas",
+          "presentation": "Cápsulas",
+          "dosage": "2000 mg",
+          "quantity": "90",
+          "images": [
+            "./images/Carlyle/Carlyle-Shilajit-2000mg-90-F.jpg",
+            "./images/Carlyle/Carlyle-Shilajit-2000mg-90-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "120.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "85.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "75.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Ashwagandha",
+      "brand": "Carlyle",
+      "category": "estres",
+      "shortDescription": "Adaptógeno que ayuda a manejar el estrés, mejorar el estado de ánimo y la claridad mental.",
+      "tags": [
+        "estrés",
+        "relajación",
+        "adaptógeno",
+        "hormonal",
+        "energía",
+        "Carlyle"
+      ],
+      "variants": [
+        {
+          "variantId": 701,
+          "name": "3000 mg - 300 cápsulas",
+          "presentation": "Cápsulas",
+          "dosage": "3000 mg",
+          "quantity": "300",
+          "images": [
+            "./images/Carlyle/Carlyle-Ashwaghanda-3000mg-300-F.jpg",
+            "./images/Carlyle/Carlyle-Ashwaghanda-3000mg-300-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "135.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "100.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "90.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Lion's Mane (Melena de león)",
+      "brand": "Horbäach",
+      "category": "cerebro",
+      "shortDescription": "Apoya la función cerebral, la memoria y la concentración.",
+      "tags": [
+        "cerebro",
+        "memoria",
+        "concentración",
+        "sistema nervioso",
+        "Horbäach"
+      ],
+      "variants": [
+        {
+          "variantId": 801,
+          "name": "4200 mg - 120 cápsulas",
+          "presentation": "Cápsulas",
+          "dosage": "4200 mg",
+          "quantity": "120",
+          "images": [
+            "./images/Horbäach/Hoorbach-LionsMane-4200-120-F.jpg",
+            "./images/Horbäach/Hoorbach-LionsMane-4200-120-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "130.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "110.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "100.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "GABA",
+      "brand": "Horbäach",
+      "category": "estres",
+      "shortDescription": "Ayuda a promover la relajación, reducir el estrés y mejorar la calidad del sueño.",
+      "tags": [
+        "estrés",
+        "relajación",
+        "sueño",
+        "calma",
+        "sistema nervioso",
+        "Horbäach"
+      ],
+      "variants": [
+        {
+          "variantId": 901,
+          "name": "750 mg - 180 cápsulas",
+          "presentation": "Cápsulas",
+          "dosage": "750 mg",
+          "quantity": "180",
+          "images": [
+            "./images/Horbäach/Hoorbach-GABA-750-180-F.jpg",
+            "./images/Horbäach/Hoorbach-GABA-750-180-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "135.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "115.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "105.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Milk Thistle (Cardo Mariano)",
+      "brand": "Horbäach",
+      "category": "detox",
+      "shortDescription": "Extracto herbal que apoya la salud del hígado y la desintoxicación del cuerpo.",
+      "tags": [
+        "detox",
+        "hígado",
+        "antioxidante",
+        "digestión",
+        "cardo mariano",
+        "Horbäach"
+      ],
+      "variants": [
+        {
+          "variantId": 1001,
+          "name": "3000 mg - 300 cápsulas",
+          "presentation": "Cápsulas",
+          "dosage": "3000 mg",
+          "quantity": "300",
+          "images": [
+            "./images/Horbäach/Hoorbach-MilkThistle-3000-300-F.jpg",
+            "./images/Horbäach/Hoorbach-MilkThistle-3000-300-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "130.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "105.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "95.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Longjack (Tongkat Ali)",
+      "brand": "Horbäach",
+      "category": "energia",
+      "shortDescription": "Apoya los niveles de energía, el rendimiento físico y la vitalidad masculina.",
+      "tags": [
+        "energía",
+        "vitalidad",
+        "rendimiento",
+        "Tongkat Ali",
+        "Horbäach"
+      ],
+      "variants": [
+        {
+          "variantId": 1101,
+          "name": "1600 mg - 120 cápsulas",
+          "presentation": "Cápsulas",
+          "dosage": "1600 mg",
+          "quantity": "120",
+          "images": [
+            "./images/Horbäach/Hoorbach-TongkatAli-1600-120-F.jpg",
+            "./images/Horbäach/Hoorbach-TongkatAli-1600-120-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "100.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "70.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "60.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Berberina",
+      "brand": "Horbäach",
+      "category": "metabolico",
+      "shortDescription": "Ayuda a regular el azúcar en sangre y apoya un metabolismo saludable.",
+      "tags": [
+        "metabolico",
+        "azúcar en sangre",
+        "colesterol",
+        "digestión",
+        "berberina",
+        "Horbäach"
+      ],
+      "variants": [
+        {
+          "variantId": 1201,
+          "name": "500 mg - 120 cápsulas",
+          "presentation": "Cápsulas",
+          "dosage": "500 mg",
+          "quantity": "120",
+          "images": [
+            "./images/Horbäach/Hoorbach-Berberine-2000-120-F.jpg",
+            "./images/Horbäach/Hoorbach-Berberine-2000-120-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "190.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "130.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "120.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Multivitamínico para Mujer",
+      "brand": "Centrum",
+      "category": "vitaminas",
+      "shortDescription": "Gomitas multivitamínicas para apoyar la energía, inmunidad y metabolismo de la mujer.",
+      "tags": [
+        "vitaminas",
+        "mujer",
+        "energía",
+        "inmunidad",
+        "metabolismo",
+        "gomitas",
+        "Centrum"
+      ],
+      "variants": [
+        {
+          "variantId": 1301,
+          "name": "170 gomitas",
+          "presentation": "Gomitas",
+          "dosage": "nan",
+          "quantity": "170",
+          "images": [
+            "./images/Centrum/Centrum-WoMulti-2000-170-F.jpg",
+            "./images/Centrum/Centrum-WoMulti-2000-170-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "150.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "90.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "80.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Multivitamínico para Hombre",
+      "brand": "Centrum",
+      "category": "vitaminas",
+      "shortDescription": "Gomitas multivitamínicas para apoyar la inmunidad, salud muscular y energía del hombre.",
+      "tags": [
+        "vitaminas",
+        "hombre",
+        "energía",
+        "inmunidad",
+        "músculos",
+        "gomitas",
+        "Centrum"
+      ],
+      "variants": [
+        {
+          "variantId": 1401,
+          "name": "170 gomitas",
+          "presentation": "Gomitas",
+          "dosage": "nan",
+          "quantity": "170",
+          "images": [
+            "./images/Centrum/Centrum-MeMulti-2000-170-F.jpg",
+            "./images/Centrum/Centrum-MeMulti-2000-170-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "150.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "90.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "80.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Vitamina D-3 & K-2",
+      "brand": "NOW",
+      "category": "huesos",
+      "shortDescription": "Apoya la salud ósea y cardiovascular mejorando el transporte y absorción de calcio.",
+      "tags": [
+        "huesos",
+        "cardiovascular",
+        "calcio",
+        "vitamina D3",
+        "vitamina K2",
+        "NOW"
+      ],
+      "variants": [
+        {
+          "variantId": 1501,
+          "name": "1000 IU / 45 mcg - 120 cápsulas",
+          "presentation": "Cápsulas",
+          "dosage": "1000 IU / 45 mcg",
+          "quantity": "120",
+          "images": [
+            "./images/NOW/Now-DK-1045mg-120-F.jpg",
+            "./images/NOW/Now-DK-1045mg-120-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "120.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "70.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "60.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Ashwagandha",
+      "brand": "NOW",
+      "category": "estres",
+      "shortDescription": "Adaptógeno ayurvédico que ayuda al cuerpo a adaptarse al estrés normal de la vida diaria.",
+      "tags": [
+        "estrés",
+        "relajación",
+        "adaptógeno",
+        "sistema inmune",
+        "NOW"
+      ],
+      "variants": [
+        {
+          "variantId": 1601,
+          "name": "450 mg - 90 cápsulas",
+          "presentation": "Cápsulas",
+          "dosage": "450 mg",
+          "quantity": "90",
+          "images": [
+            "./images/NOW/Now-Ashwaghanda-450mg-90-F.jpg",
+            "./images/NOW/Now-Ashwaghanda-450mg-90-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "130.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "85.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "75.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "L-Theanine",
+      "brand": "NOW",
+      "category": "estres",
+      "shortDescription": "Aminoácido que promueve la relajación y la calma mental sin causar somnolencia.",
+      "tags": [
+        "estrés",
+        "relajación",
+        "concentración",
+        "calma",
+        "teanina",
+        "NOW"
+      ],
+      "variants": [
+        {
+          "variantId": 1701,
+          "name": "100 mg - 90 cápsulas",
+          "presentation": "Cápsulas",
+          "dosage": "100 mg",
+          "quantity": "90",
+          "images": [
+            "./images/NOW/Now-LTeanina-200mg-60-F.jpg",
+            "./images/NOW/Now-LTeanina-200mg-60-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "160.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "90.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "80.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Ultra Omega-3",
+      "brand": "NOW",
+      "category": "cardiovascular",
+      "shortDescription": "Aceite de pescado con altas concentraciones de EPA/DHA para la salud del corazón y cerebro.",
+      "tags": [
+        "cardiovascular",
+        "cerebro",
+        "omega 3",
+        "articulaciones",
+        "aceite de pescado",
+        "NOW"
+      ],
+      "variants": [
+        {
+          "variantId": 1801,
+          "name": "500 EPA / 250 DHA - 180 softgels",
+          "presentation": "Softgels",
+          "dosage": "500 EPA / 250 DHA",
+          "quantity": "180",
+          "images": [
+            "./images/NOW/Now-UOmega-750mg-180-F.jpg",
+            "./images/NOW/Now-UOmega-750mg-180-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "220.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "155.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "140.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Candida Support",
+      "brand": "NOW",
+      "category": "detox",
+      "shortDescription": "Fórmula herbal para ayudar a mantener un equilibrio saludable de la flora intestinal.",
+      "tags": [
+        "detox",
+        "digestión",
+        "flora intestinal",
+        "probióticos",
+        "cándida",
+        "NOW"
+      ],
+      "variants": [
+        {
+          "variantId": 1901,
+          "name": "180 cápsulas",
+          "presentation": "Cápsulas",
+          "dosage": "nan",
+          "quantity": "180",
+          "images": [
+            "./images/NOW/Now-Candyda-1400mg-180-F.jpg",
+            "./images/NOW/Now-Candyda-1400mg-180-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "170.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "120.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "110.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Inulina Prebiótica",
+      "brand": "NOW",
+      "category": "detox",
+      "shortDescription": "Fibra prebiótica en polvo que nutre las bacterias beneficiosas y apoya la salud intestinal.",
+      "tags": [
+        "detox",
+        "digestión",
+        "prebiótico",
+        "fibra",
+        "flora intestinal",
+        "NOW"
+      ],
+      "variants": [
+        {
+          "variantId": 2001,
+          "name": "454 gr",
+          "presentation": "Polvo",
+          "dosage": "nan",
+          "quantity": "454",
+          "images": [
+            "./images/NOW/Now-Inulin-454mg-227-F.jpg",
+            "./images/NOW/Now-Inulin-454mg-227-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "140.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "105.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "95.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Super Enzymes",
+      "brand": "NOW",
+      "category": "detox",
+      "shortDescription": "Complejo de enzimas para optimizar la descomposición de grasas, carbohidratos y proteínas.",
+      "tags": [
+        "detox",
+        "digestión",
+        "enzimas",
+        "hinchazón",
+        "pesadez",
+        "NOW"
+      ],
+      "variants": [
+        {
+          "variantId": 2101,
+          "name": "180 cápsulas",
+          "presentation": "Cápsulas",
+          "dosage": "nan",
+          "quantity": "180",
+          "images": [
+            "./images/NOW/Now-SuperEnzymes-540mg-180-F.jpg",
+            "./images/NOW/Now-SuperEnzymes-540mg-180-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "180.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "130.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "120.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "NAD+ Cell Regenerator",
+      "brand": "Life Extension",
+      "category": "energia",
+      "shortDescription": "Suplemento premium que combate el envejecimiento celular y promueve el metabolismo energético.",
+      "tags": [
+        "energía",
+        "antienvejecimiento",
+        "vitalidad",
+        "metabolismo",
+        "NAD+",
+        "Life Extension"
+      ],
+      "variants": [
+        {
+          "variantId": 2201,
+          "name": "100 mg - 30 cápsulas",
+          "presentation": "Cápsulas",
+          "dosage": "100 mg",
+          "quantity": "30",
+          "images": [
+            "./images/Life Extension/LifeExtension-Nad-100-30-F.jpg",
+            "./images/Life Extension/LifeExtension-Nad-100-30-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "180.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "120.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "100.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Neuro-Mag",
+      "brand": "Life Extension",
+      "category": "cerebro",
+      "shortDescription": "Magnesio L-Treonato de alta absorción cerebral para mejorar la memoria y la función cognitiva.",
+      "tags": [
+        "cerebro",
+        "memoria",
+        "concentración",
+        "magnesio",
+        "sistema nervioso",
+        "Life Extension"
+      ],
+      "variants": [
+        {
+          "variantId": 2301,
+          "name": "90 cápsulas",
+          "presentation": "Cápsulas",
+          "dosage": "nan",
+          "quantity": "90",
+          "images": [
+            "./images/Life Extension/LifeExtension-Neuromag-140-90-F.jpg",
+            "./images/Life Extension/LifeExtension-Neuromag-140-90-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "200.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "140.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "125.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Multivitamínico para Adultos",
+      "brand": "Kirkland",
+      "category": "vitaminas",
+      "shortDescription": "Gomitas con vitaminas y minerales para apoyar la salud inmune, ósea y general.",
+      "tags": [
+        "vitaminas",
+        "adultos",
+        "inmunidad",
+        "huesos",
+        "energía",
+        "gomitas",
+        "Kirkland"
+      ],
+      "variants": [
+        {
+          "variantId": 2401,
+          "name": "160 gomitas",
+          "presentation": "Gomitas",
+          "dosage": "nan",
+          "quantity": "160",
+          "images": [
+            "./images/Kirkland/Kirkland-MultiVita-1000-160-F.jpg",
+            "./images/Kirkland/Kirkland-MultiVita-1000-160-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "130.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "95.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "80.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Calcio con Vitamina D3",
+      "brand": "Kirkland",
+      "category": "huesos",
+      "shortDescription": "Gomitas de calcio para fortalecer huesos y dientes, y reducir el riesgo de osteoporosis.",
+      "tags": [
+        "huesos",
+        "calcio",
+        "vitamina D3",
+        "osteoporosis",
+        "gomitas",
+        "Kirkland"
+      ],
+      "variants": [
+        {
+          "variantId": 2501,
+          "name": "500 mg - 120 gomitas",
+          "presentation": "Gomitas",
+          "dosage": "500 mg",
+          "quantity": "120",
+          "images": [
+            "./images/Kirkland/Kirkland-CalciVita-100-120-F.jpg",
+            "./images/Kirkland/Kirkland-CalciVita-100-120-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "130.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "95.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "80.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Multivitamínico para Niños",
+      "brand": "Kirkland",
+      "category": "vitaminas",
+      "shortDescription": "Gomitas para apoyar el crecimiento saludable, desarrollo y sistema inmune de los niños.",
+      "tags": [
+        "vitaminas",
+        "niños",
+        "crecimiento",
+        "desarrollo",
+        "inmunidad",
+        "gomitas",
+        "Kirkland"
+      ],
+      "variants": [
+        {
+          "variantId": 2601,
+          "name": "160 gomitas",
+          "presentation": "Gomitas",
+          "dosage": "nan",
+          "quantity": "160",
+          "images": [
+            "./images/Kirkland/Kirkland-MultiVitaKids-1000-160-F.jpg",
+            "./images/Kirkland/Kirkland-MultiVitaKids-1000-160-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "130.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "95.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "80.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Gummy Vites",
+      "brand": "L'il Critters",
+      "category": "vitaminas",
+      "shortDescription": "Gomitas multivitamínicas completas para niños, reforzadas con más Vitamina D.",
+      "tags": [
+        "vitaminas",
+        "niños",
+        "crecimiento",
+        "defensas",
+        "gomitas",
+        "L'il Critters"
+      ],
+      "variants": [
+        {
+          "variantId": 2701,
+          "name": "300 gomitas",
+          "presentation": "Gomitas",
+          "dosage": "nan",
+          "quantity": "300",
+          "images": [
+            "./images/L'il Critters/Lil-MultiVitaKids-1000-300-F.jpg",
+            "./images/L'il Critters/Lil-MultiVitaKids-1000-300-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "135.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "105.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "95.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Glucosamine Chondroitin MSM",
+      "brand": "Doctor's Best",
+      "category": "huesos",
+      "shortDescription": "Fórmula para apoyar la salud y flexibilidad de las articulaciones y mantener el cartílago.",
+      "tags": [
+        "huesos",
+        "articulaciones",
+        "flexibilidad",
+        "cartílago",
+        "glucosamina",
+        "Doctor's Best"
+      ],
+      "variants": [
+        {
+          "variantId": 2801,
+          "name": "240 cápsulas",
+          "presentation": "Cápsulas",
+          "dosage": "nan",
+          "quantity": "240",
+          "images": [
+            "./images/Doctor's Best/Dr-Gluco-100-240-F.jpg",
+            "./images/Doctor's Best/Dr-Gluco-100-240-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "180.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "150.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "140.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Multivitamínico para Adultos",
+      "brand": "Vitafusion",
+      "category": "vitaminas",
+      "shortDescription": "Deliciosas gomitas multivitamínicas para adultos que apoyan la salud general, el metabolismo energético y el sistema inmune.",
+      "tags": [
+        "vitaminas",
+        "gomitas",
+        "adultos",
+        "multivitamínico",
+        "vitafusion"
+      ],
+      "variants": [
+        {
+          "variantId": 2901,
+          "name": "150 gomitas",
+          "presentation": "Gomitas",
+          "dosage": "nan",
+          "quantity": "150",
+          "images": [
+            "./images/Vitafusion/VitaFusion-WoMulti-1000-150-F.jpg",
+            "./images/Vitafusion/VitaFusion-WoMulti-1000-150-B.jpg"
+          ],
+          "pricingTiers": [
+            {
+              "minQty": 1,
+              "price": "150.00",
+              "tierName": "Precio Individual"
+            },
+            {
+              "minQty": 3,
+              "price": "110.00",
+              "tierName": "Mayoreo (3+)"
+            },
+            {
+              "minQty": 6,
+              "price": "100.00",
+              "tierName": "Gran Mayoreo (6+)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "categoryDefinitions": {
+    "sueño": {
+      "title": "Sueño y Relax",
+      "description": "Soluciones naturales para mejorar la calidad del descanso, ayudando a conciliar el sueño y disfrutar de un descanso profundo."
+    },
+    "huesos": {
+      "title": "Salud Ósea y Articular",
+      "description": "Nutrientes clave como Calcio, Vitamina D, K2 y Glucosamina para fortalecer huesos y mantener la flexibilidad."
+    },
+    "cardiovascular": {
+      "title": "Salud Cardiovascular",
+      "description": "Omega-3, antioxidantes y otros nutrientes especializados para mantener un corazón sano y un sistema circulatorio óptimo."
+    },
+    "defensas": {
+      "title": "Sistema Inmunológico",
+      "description": "Fortalece tus defensas naturales con extractos herbales y antioxidantes potentes que apoyan la respuesta inmune."
+    },
+    "energia": {
+      "title": "Energía y Vitalidad",
+      "description": "Combate la fatiga con adaptógenos y nutrientes que impulsan la energía celular y la vitalidad física y mental."
+    },
+    "estres": {
+      "title": "Manejo del Estrés",
+      "description": "Adaptógenos y nutrientes que promueven la calma, reducen la ansiedad y mejoran la respuesta del cuerpo al estrés diario."
+    },
+    "cerebro": {
+      "title": "Función Cognitiva",
+      "description": "Potencia tu mente con nootrópicos naturales que apoyan la memoria, la concentración y la claridad mental."
+    },
+    "detox": {
+      "title": "Detox y Digestión",
+      "description": "Fórmulas con enzimas, prebióticos y extractos herbales para optimizar la digestión y apoyar la desintoxicación natural."
+    },
+    "metabolico": {
+      "title": "Salud Metabólica",
+      "description": "Productos especializados para apoyar un metabolismo saludable, el equilibrio de azúcar en sangre y el control de peso."
+    },
+    "vitaminas": {
+      "title": "Vitaminas Esenciales",
+      "description": "Fórmulas completas para toda la familia que apoyan el bienestar general, la energía y el sistema inmune."
+    }
+  }
+}
