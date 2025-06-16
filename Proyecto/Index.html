@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Me Now - Catálogo Mayorista de Suplementos Premium</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Contenedor del Header para el efecto "sticky" -->
+    <div class="header-wrapper">
+        <header class="header">
+            <div class="logo">
+                <div class="logo-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 12L22 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 12V22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 12L2 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M16.5 4.5L7.5 9.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <div class="logo-text"><h1>BUY ME - NOW!</h1></div>
+            </div>
+            <a href="https://wa.me/51912907338?text=Hola!%20Quisiera%20hacer%20una%20consulta%20sobre%20los%20productos." target="_blank" class="btn btn-whatsapp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.89 7.89 0 0 0 13.6 2.326zM7.994 14.521a6.57 6.57 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.068-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943s-.182-.133-.38-.232z"/>
+    </svg>
+    <span>Contactar por WhatsApp</span>
+</a>
+        </header>
+    </div>
+    
+    <!-- Hero Slider con todos los slides de video -->
+    <section class="hero-slider-container">
+        <!-- Slide 1: Video Principal -->
+        <div class="hero-slide active">
+            <video playsinline autoplay muted loop poster="images/video_poster.jpg" class="hero-video">
+                <source src="videos/Suplementos 1.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+            <div class="hero-content">
+                <h1>Calidad y Confianza para tu Bienestar</h1>
+                <p>Suplementos premium de laboratorios líderes en Estados Unidos. Potenciamos tu salud y tu negocio con los mejores productos del mercado.</p>
+                <div class="hero-cta">
+                    <a href="#product-sections-container" class="hero-btn hero-btn-primary">Explorar Catálogo</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2: Video Secundario -->
+        <div class="hero-slide">
+            <video playsinline autoplay muted loop poster="https://placehold.co/1920x1080/111827/cccccc?text=Cargando..." class="hero-video">
+                <source src="videos/Suplementos 2.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+            <div class="hero-content">
+                <h1>Calidad Premium, Precios Mayoristas</h1>
+                <p>Marcas reconocidas como NOW Foods, Carlyle, Natrol y más. Ofrecemos los mejores precios para distribuidores y farmacias en todo el Perú.</p>
+                <div class="hero-cta">
+                    <a href="https://wa.me/51912907338?text=Hola!%20Quisiera%20una%20cotización%20para%20mi%20negocio." target="_blank" class="hero-btn hero-btn-primary">Solicitar Cotización</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: Video Terciario -->
+        <div class="hero-slide">
+             <video playsinline autoplay muted loop poster="https://placehold.co/1920x1080/111827/cccccc?text=Cargando..." class="hero-video">
+                <source src="videos/Suplementos 3.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+            <div class="hero-content">
+                <h1>Impulsa tu Negocio con Nosotros</h1>
+                <p>Más de 100 productos disponibles con entrega rápida en Lima. Asesoría personalizada y soporte completo para hacer crecer tu negocio.</p>
+                <div class="hero-cta">
+                    <a href="https://wa.me/51912907338?text=Hola!%20Quisiera%20información%20sobre%20cómo%20empezar%20a%20vender." target="_blank" class="hero-btn hero-btn-primary">Empezar Ahora</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Controles de Navegación -->
+        <button class="hero-nav hero-nav-prev" onclick="previousSlide()">‹</button>
+        <button class="hero-nav hero-nav-next" onclick="nextSlide()">›</button>
+        <div class="hero-indicators">
+            <span class="hero-indicator active" onclick="currentSlide(1)"></span>
+            <span class="hero-indicator" onclick="currentSlide(2)"></span>
+            <span class="hero-indicator" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+    <!-- Carrusel de Marcas con Logos -->
+    <section class="brands-section animate-on-scroll">
+        <div class="trust-badge">Marcas Certificadas FDA</div>
+        <div class="brands-title">
+            <h2>Trabajamos con las Mejores Marcas Americanas</h2>
+            <p>Laboratorios de confianza con certificaciones FDA y estándares de calidad internacional</p>
+        </div>
+        <div class="brands-carousel">
+            <div class="brands-track">
+                <div class="brand-item"><img src="images/brands/Natrol-logo.png" alt="Logo de Natrol" class="brand-logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=brand-text>Natrol</div>';"></div>
+                <div class="brand-item"><img src="images/brands/carlyle-logo.png" alt="Logo de Carlyle" class="brand-logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=brand-text>Carlyle</div>';"></div>
+                <div class="brand-item"><img src="images/brands/now-logo.png" alt="Logo de NOW Foods" class="brand-logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=brand-text>NOW Foods</div>';"></div>
+                <div class="brand-item"><img src="images/brands/Horbaach-logo.png" alt="Logo de Horbäach" class="brand-logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=brand-text>Horbäach</div>';"></div>
+                <div class="brand-item"><img src="images/brands/centrum-logo.png" alt="Logo de Centrum" class="brand-logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=brand-text>Centrum</div>';"></div>
+                <div class="brand-item"><img src="images/brands/life-extension-logo.png" alt="Logo de Life Extension" class="brand-logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=brand-text>Life Extension</div>';"></div>
+                <div class="brand-item"><img src="images/brands/Kirkland-logo.png" alt="Logo de Kirkland" class="brand-logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=brand-text>Kirkland</div>';"></div>
+                <div class="brand-item"><img src="images/brands/lil-critters-logo.png" alt="Logo de L'il Critters" class="brand-logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=brand-text>L\'il Critters</div>';"></div>
+                <div class="brand-item"><img src="images/brands/doctors-best-logo.png" alt="Logo de Doctor's Best" class="brand-logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=brand-text>Doctor\'s Best</div>';"></div>
+                <div class="brand-item"><img src="images/brands/vitafusion-logo.png" alt="Logo de Vitafusion" class="brand-logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=brand-text>Vitafusion</div>';"></div>
+                <div class="brand-item"><img src="images/brands/Natrol-logo.png" alt="Logo de Natrol" class="brand-logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=brand-text>Natrol</div>';"></div>
+                <div class="brand-item"><img src="images/brands/carlyle-logo.png" alt="Logo de Carlyle" class="brand-logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=brand-text>Carlyle</div>';"></div>
+                <div class="brand-item"><img src="images/brands/now-logo.png" alt="Logo de NOW Foods" class="brand-logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=brand-text>NOW Foods</div>';"></div>
+                <div class="brand-item"><img src="images/brands/Horbaach-logo.png" alt="Logo de Horbäach" class="brand-logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=brand-text>Horbäach</div>';"></div>
+                <div class="brand-item"><img src="images/brands/centrum-logo.png" alt="Logo de Centrum" class="brand-logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=brand-text>Centrum</div>';"></div>
+                <div class="brand-item"><img src="images/brands/life-extension-logo.png" alt="Logo de Life Extension" class="brand-logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=brand-text>Life Extension</div>';"></div>
+                <div class="brand-item"><img src="images/brands/Kirkland-logo.png" alt="Logo de Kirkland" class="brand-logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=brand-text>Kirkland</div>';"></div>
+                <div class="brand-item"><img src="images/brands/lil-critters-logo.png" alt="Logo de L'il Critters" class="brand-logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=brand-text>L\'il Critters</div>';"></div>
+                <div class="brand-item"><img src="images/brands/doctors-best-logo.png" alt="Logo de Doctor's Best" class="brand-logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=brand-text>Doctor\'s Best</div>';"></div>
+                <div class="brand-item"><img src="images/brands/vitafusion-logo.png" alt="Logo de Vitafusion" class="brand-logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=brand-text>Vitafusion</div>';"></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="trust-seals animate-on-scroll">
+            <div class="seal"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg><span>Calidad Garantizada</span></div>
+            <div class="seal"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg><span>Fórmulas Potentes</span></div>
+            <div class="seal"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg><span>Marcas Reconocidas</span></div>
+        </section>
+
+        <div class="search-container animate-on-scroll">
+            <span class="search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/></svg></span>
+            <input type="text" id="search-input" class="search-input" placeholder="Buscar por nombre, marca o beneficio...">
+        </div>
+        
+        <main id="product-sections-container"><div class="loading-message">Cargando productos...</div></main>
+    </div>
+    
+    <div id="product-modal" class="modal-overlay">
+        <div class="modal-container">
+            <button id="modal-close-btn" class="modal-close">&times;</button>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <div id="cart-fab" class="cart-fab">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16"><path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg>
+        <span id="cart-badge" class="cart-badge">0</span>
+    </div>
+
+    <aside id="cart-sidebar" class="cart-sidebar">
+        <div class="cart-header"><h3>Mi Pedido</h3><button id="cart-close-btn" class="cart-close-btn">&times;</button></div>
+        <div id="cart-incentive" class="cart-incentive" style="display: none;"></div>
+        <div id="cart-items" class="cart-items"></div>
+        <div class="cart-footer">
+            <div class="discount-section">
+                <input type="text" id="discount-input" class="discount-input" placeholder="Código de descuento">
+                <button id="apply-discount-btn" class="btn-apply-discount">Aplicar</button>
+            </div>
+            <div id="cart-summary" class="cart-summary">
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span id="cart-subtotal-price">S/ 0.00</span>
+                </div>
+                <div class="summary-row" id="discount-row" style="display: none;">
+    <span>Descuento (<span id="discount-code-text"></span> <button id="remove-coupon-btn" title="Quitar cupón">&times;</button>)</span>
+    <span id="discount-amount">-S/ 0.00</span>
+</div>
+                <div class="summary-row total">
+                    <span>Total</span>
+                    <span id="cart-total-price">S/ 0.00</span>
+                </div>
+            </div>
+            <a href="#" id="checkout-btn" class="btn btn-whatsapp btn-checkout">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.89 7.89 0 0 0 13.6 2.326zM7.994 14.521a6.57 6.57 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.068-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943s-.182-.133-.38-.232z"/>
+    </svg>
+    <span>Finalizar Pedido por WhatsApp</span>
+</a>
+        </div>
+    </aside>
+
+    <footer class="site-footer new-design">
+        <div class="footer-main">
+            <div class="footer-column shop-links">
+                <h4>Categorías</h4>
+                <a href="#">Sueño y Relax</a>
+                <a href="#">Salud Ósea</a>
+                <a href="#">Energía y Vitalidad</a>
+                <a href="#">Manejo del Estrés</a>
+                <a href="#">Función Cognitiva</a>
+                <a href="#">Vitaminas</a>
+                <a href="#">Ver Todos</a>
+            </div>
+            <div class="footer-column">
+                <h4>Nosotros</h4>
+                <a href="#">Nuestra Historia</a>
+                <a href="#">Estándares de Calidad</a>
+                <a href="#">Blog de Salud</a>
+            </div>
+            <div class="footer-column">
+                <h4>Ayuda</h4>
+                <a href="#">Contacto y Cotizaciones</a>
+                <a href="#">Preguntas Frecuentes</a>
+                <a href="#">Términos de Venta</a>
+                <a href="#">Políticas de Privacidad</a>
+            </div>
+            <div class="footer-column-highlight">
+                <h4>Mantente al día con lo último de BMN</h4>
+                <p>Nuestros productos ayudan a tu mente y cuerpo a dar lo mejor de sí, de forma natural.</p>
+                
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Tu correo electrónico">
+                    <button type="submit">Suscribirse</button>
+                </form>
+
+                <div class="social-links">
+                    <h4>Síguenos</h4>
+                    <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg></a>
+                    <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2c2.717 0 3.056.01 4.122.06c1.065.05 1.79.217 2.428.465c.66.254 1.217.598 1.772 1.153c.556.556.9 1.113 1.153 1.772c.248.638.415 1.363.465 2.428c.047 1.066.06 1.405.06 4.122c0 2.717-.01 3.056-.06 4.122c-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772a4.927 4.927 0 0 1-1.772 1.153c-.638.248-1.363.415-2.428.465c-1.066.047-1.405.06-4.122.06s-3.056-.01-4.122-.06c-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153a4.927 4.927 0 0 1-1.153-1.772c-.248-.638-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12s.01-3.056.06-4.122c.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.927 4.927 0 0 1 5.45 2.525c.638-.248 1.363-.415 2.428-.465C8.944 2.013 9.283 2 12 2m0 2c-2.67 0-2.987.01-4.043.058c-.975.045-1.504.207-1.928.372a2.888 2.888 0 0 0-1.05 1.05c-.164.424-.327.953-.372 1.928C4.013 9.013 4 9.33 4 12c0 2.67.01 2.987.058 4.043c.045.975.208 1.504.372 1.928a2.888 2.888 0 0 0 1.05 1.05c.424.164.953.327 1.928.372C9.013 19.988 9.33 20 12 20c2.67 0 2.987-.01 4.043-.058c.975-.045 1.504-.208 1.928-.372a2.888 2.888 0 0 0 1.05-1.05c.164-.424.327-.953.372-1.928c.045-1.056.058-1.373.058-4.043s-.01-2.987-.058-4.043c-.045-.975-.208-1.504-.372-1.928a2.888 2.888 0 0 0-1.05-1.05c-.424-.164-.953-.327-1.928-.372C14.987 4.013 14.67 4 12 4m0 3.375a4.625 4.625 0 1 0 0 9.25a4.625 4.625 0 0 0 0-9.25M12 15a3 3 0 1 1 0-6a3 3 0 0 1 0 6m4.85-8.8a1.2 1.2 0 1 0-2.4 0a1.2 1.2 0 0 0 2.4 0"/></svg></a>
+                    <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02c.08 1.53.63 3.09 1.75 4.17c1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97c-.01-1.58-.01-3.16 0-4.72c-1.58.19-3.17.4-4.69.74v6.35c.81 1.41 2.05 2.59 3.55 3.44c.46.26 1 .42 1.59.41c.21 0 .4-.12.6-.23c.32-.2.6-.5.74-.83c.22-.52.23-1.08.02-1.61c-.2-.5-.52-.96-.9-1.32c-.01-.42-.01-.84 0-1.26c.13-.03.26-.07.38-.11c1.47-.41 2.92-.93 4.31-1.59v4.04c-2.16.82-4.47 1.1-6.72.93c-1.12-.08-2.22-.33-3.26-.76c-1.03-.43-1.98-.99-2.83-1.65c-.86-.66-1.62-1.43-2.26-2.29c-.63-.86-1.16-1.8-1.56-2.77c-.4-1-.68-2.04-.84-3.09c-.11-.75-.16-1.51-.16-2.27c.01-1.63.01-3.26 0-4.89c.43-1.11 1.03-2.16 1.79-3.13c.76-.97 1.66-1.83 2.69-2.55c1.03-.71 2.16-1.28 3.36-1.67C9.01.12 10.76.03 12.525.02z"/></svg></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 BUY ME - NOW!. Todos los derechos reservados.</p>
+            <p class="disclaimer">Estas declaraciones no han sido evaluadas por la Food and Drug Administration. Estos productos no están destinados a diagnosticar, tratar, curar o prevenir ninguna enfermedad.</p>
+        </div>
+    </footer>
+
+
+    <script src="js/app.js"></script>
+</body>
+</html>
